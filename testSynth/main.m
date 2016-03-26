@@ -1,6 +1,6 @@
 //
 //  main.m
-//  testSynth
+//  testSynth01
 //
 //  Created by apple on 2016/03/26.
 //  Copyright © 2016年 apple. All rights reserved.
