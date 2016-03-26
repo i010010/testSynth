@@ -9,12 +9,15 @@
 /* Begin PBXBuildFile section */
 		183542181CA6D36D00FE3689 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 183542171CA6D36D00FE3689 /* main.m */; };
 		1835421B1CA6D36D00FE3689 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1835421A1CA6D36D00FE3689 /* AppDelegate.m */; };
-		1835421E1CA6D36D00FE3689 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1835421D1CA6D36D00FE3689 /* ViewController.m */; };
 		183542211CA6D36D00FE3689 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1835421F1CA6D36D00FE3689 /* Main.storyboard */; };
 		183542231CA6D36D00FE3689 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 183542221CA6D36D00FE3689 /* Assets.xcassets */; };
 		183542261CA6D36D00FE3689 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 183542241CA6D36D00FE3689 /* LaunchScreen.storyboard */; };
 		183542311CA6D36E00FE3689 /* testSynthTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 183542301CA6D36E00FE3689 /* testSynthTests.m */; };
 		1835423C1CA6D36E00FE3689 /* testSynthUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1835423B1CA6D36E00FE3689 /* testSynthUITests.m */; };
+		1835424A1CA6D3A300FE3689 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 183542491CA6D3A300FE3689 /* AudioToolbox.framework */; };
+		183542521CA6D41400FE3689 /* iPhoneCoreAudio.m in Sources */ = {isa = PBXBuildFile; fileRef = 1835424C1CA6D41400FE3689 /* iPhoneCoreAudio.m */; };
+		183542541CA6D41400FE3689 /* SimpleFM.m in Sources */ = {isa = PBXBuildFile; fileRef = 1835424F1CA6D41400FE3689 /* SimpleFM.m */; };
+		183542551CA6D41400FE3689 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183542511CA6D41400FE3689 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +42,6 @@
 		183542171CA6D36D00FE3689 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		183542191CA6D36D00FE3689 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1835421A1CA6D36D00FE3689 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1835421C1CA6D36D00FE3689 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1835421D1CA6D36D00FE3689 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		183542201CA6D36D00FE3689 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		183542221CA6D36D00FE3689 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		183542251CA6D36D00FE3689 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +52,13 @@
 		183542371CA6D36E00FE3689 /* testSynthUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testSynthUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1835423B1CA6D36E00FE3689 /* testSynthUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testSynthUITests.m; sourceTree = "<group>"; };
 		1835423D1CA6D36E00FE3689 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		183542491CA6D3A300FE3689 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		1835424B1CA6D41400FE3689 /* iPhoneCoreAudio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iPhoneCoreAudio.h; sourceTree = "<group>"; };
+		1835424C1CA6D41400FE3689 /* iPhoneCoreAudio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iPhoneCoreAudio.m; sourceTree = "<group>"; };
+		1835424E1CA6D41400FE3689 /* SimpleFM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleFM.h; sourceTree = "<group>"; };
+		1835424F1CA6D41400FE3689 /* SimpleFM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleFM.m; sourceTree = "<group>"; };
+		183542501CA6D41400FE3689 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		183542511CA6D41400FE3689 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1835424A1CA6D3A300FE3689 /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +90,7 @@
 		1835420A1CA6D36D00FE3689 = {
 			isa = PBXGroup;
 			children = (
+				183542491CA6D3A300FE3689 /* AudioToolbox.framework */,
 				183542151CA6D36D00FE3689 /* testSynth */,
 				1835422F1CA6D36E00FE3689 /* testSynthTests */,
 				1835423A1CA6D36E00FE3689 /* testSynthUITests */,
@@ -103,8 +113,12 @@
 			children = (
 				183542191CA6D36D00FE3689 /* AppDelegate.h */,
 				1835421A1CA6D36D00FE3689 /* AppDelegate.m */,
-				1835421C1CA6D36D00FE3689 /* ViewController.h */,
-				1835421D1CA6D36D00FE3689 /* ViewController.m */,
+				1835424B1CA6D41400FE3689 /* iPhoneCoreAudio.h */,
+				1835424C1CA6D41400FE3689 /* iPhoneCoreAudio.m */,
+				1835424E1CA6D41400FE3689 /* SimpleFM.h */,
+				1835424F1CA6D41400FE3689 /* SimpleFM.m */,
+				183542501CA6D41400FE3689 /* ViewController.h */,
+				183542511CA6D41400FE3689 /* ViewController.m */,
 				1835421F1CA6D36D00FE3689 /* Main.storyboard */,
 				183542221CA6D36D00FE3689 /* Assets.xcassets */,
 				183542241CA6D36D00FE3689 /* LaunchScreen.storyboard */,
@@ -207,6 +221,7 @@
 				TargetAttributes = {
 					183542121CA6D36D00FE3689 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = HYF6G62N4D;
 					};
 					1835422B1CA6D36E00FE3689 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -270,8 +285,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1835421E1CA6D36D00FE3689 /* ViewController.m in Sources */,
+				183542551CA6D41400FE3689 /* ViewController.m in Sources */,
 				1835421B1CA6D36D00FE3689 /* AppDelegate.m in Sources */,
+				183542521CA6D41400FE3689 /* iPhoneCoreAudio.m in Sources */,
+				183542541CA6D41400FE3689 /* SimpleFM.m in Sources */,
 				183542181CA6D36D00FE3689 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -413,7 +430,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = testSynth/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = test.testSynth;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -424,7 +443,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = testSynth/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = test.testSynth;
 				PRODUCT_NAME = "$(TARGET_NAME)";
